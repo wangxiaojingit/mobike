@@ -1,0 +1,33 @@
+.swiper-slide{
+  background-size:cover;
+}
+@media all and (max-width:1080px){
+    .nav-ul{
+        display:none;
+    }
+
+  .recomment li{
+      width:50%;
+  }
+  .md{
+    width:100%;
+  }
+}
+
+@media all and (max-width:767px){
+   .recomment li{
+     width:100%;
+   }
+  .linksBox>div{
+      width:100%;
+  }
+  .money .moneyIn{
+    margin:0;
+    width:auto;
+  }
+  .mfBox{
+    float:left;
+  }
+}
+
+
